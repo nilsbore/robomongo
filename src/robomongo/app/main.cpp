@@ -1,6 +1,8 @@
 #include <QApplication>
 #include <QDesktopWidget>
 
+#include <cstdlib>
+
 #include <locale.h>
 
 #include "robomongo/gui/MainWindow.h"
@@ -8,7 +10,10 @@
 
 int main(int argc, char *argv[])
 {
+    setenv("LC_NUMERIC", "C", true);
+
     QApplication app(argc, argv);
+
     Robomongo::detail::initStyle();    
     setlocale(LC_NUMERIC,"C"); // do not move this line!!!
 
