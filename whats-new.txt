@@ -1,4 +1,4 @@
-0.8.5 / (development)
+0.8.5 / March 10, 2015
   * [Stephen Steneker]
     - OS X build fixes for XCode 5 / libc++ (#524)
     - OS X specific keyboard shortcut tips (#505)
@@ -21,8 +21,8 @@
     - Bug: Type of Double changed to Int32 on save document (#622)
     - "Duplicate Query In New Tab": add to Window menu with keyboard shortcut (#631)
     - No errors logged if settings directory cannot be created or settings file cannot be written to (#636)
-    - Retina display support (#248)
     - Show execution time for operations that don't return results (#455)
+    - Disable broken "Copy Collection to Database" misfeature (#398)
   * [Vladimir Belozyorov]
     - View mode reset to default after no results (#509)
     - Comment / uncomment selected code in the shell (#467)
@@ -43,6 +43,8 @@
     - CreateUserDialog.cpp: fixed typo in warning message
   * [Andres Kievsky]
     - Added new app icon in a variety of png and iDraw formats (#693)
+  * [Michael Steinacher]
+	- Retina text display support (#724)
 
 0.8.4 / November 27, 2013
 

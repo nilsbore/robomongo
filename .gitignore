@@ -9,6 +9,8 @@ CMakeLists.txt.user*
 *.kate-swp
 
 target/
+target-debug/
+target-release/
 libs/
 
 /build
@@ -17,6 +19,8 @@ libs/
 /src/robomongo/robomongo.pro.user.1.3
 
 /src/third-party/mongodb/src/third_party/js-1.7/jswgen
+
+.idea/
 
 # Created by http://www.gitignore.io
 
@@ -84,6 +88,7 @@ Makefile*
 # QtCreator
 
 *.autosave
+*.creator.user
 
 
 ### Windows ###
